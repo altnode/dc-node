@@ -1,1 +1,3 @@
-export default {};
+import DCNode from "./DCNode";
+
+export default DCNode;
