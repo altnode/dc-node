@@ -1,10 +1,10 @@
 {
   "name": "altnode.dc-node",
   "description": "altnode.DCNode",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": "Nao Yonamine <mohayonao@gmail.com>",
   "bugs": {
-    "url": "https://github.com/altnode/feedback-delay-node/issues"
+    "url": "https://github.com/altnode/dc-node/issues"
   },
   "dependencies": {
     "altnode.alt-audio-node": "^0.2.0"
@@ -26,7 +26,7 @@
     "index.js",
     "lib"
   ],
-  "homepage": "https://github.com/altnode/feedback-delay-node",
+  "homepage": "https://github.com/altnode/dc-node",
   "keywords": [
     "Web Audio API"
   ],
@@ -34,7 +34,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/altnode/feedback-delay-node.git"
+    "url": "https://github.com/altnode/dc-node.git"
   },
   "scripts": {
     "build": "babel src --out-dir lib",
