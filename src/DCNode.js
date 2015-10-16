@@ -1,8 +1,8 @@
-import AudioNode from "altnode.audio-node";
+import AltAudioNode from "altnode.alt-audio-node";
 import { VALUE, BUFSRC } from "./symbols";
 import createDCBuffer from "./createDCBuffer";
 
-export default class DCNode extends AudioNode {
+export default class DCNode extends AltAudioNode {
   constructor(audioContext, value = 0) {
     super(audioContext);
 
