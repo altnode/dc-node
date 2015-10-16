@@ -10,7 +10,7 @@ npm install -S altnode.dc-node
 ```
 
 ## API
-### AudioNode
+### DCNode
 - `constructor(audioContext: AudioContext, value = 0)`
 
 #### Instance attributes
